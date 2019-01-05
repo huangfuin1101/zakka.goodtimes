@@ -3,16 +3,22 @@ import React from 'react';
 
 function Home(){
   return (
-    <section className="section">
-      <div className="columns is-12-desktop is-12-mobile">
-        {/* <Link to={'/bags'}>
-          <figure  className="image">
-            <img id="homepic"  src="../assets/images/home.png" />
-          </figure>
-        </Link> */}
-        <h1>hello</h1>
+
+    <section className="hero is-fullheight">
+      <div className="hero-body">
+        <div className="container has-text-centered">
+          <div className="column is-6 is-offset-3">
+            <h1 className="title">
+              Coming Soon
+            </h1>
+            <h2 className="subtitle">
+              this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
+            </h2>
+          </div>
+        </div>
       </div>
     </section>
+
   );
 }
 
