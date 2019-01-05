@@ -8,20 +8,24 @@ html,body {
 html {
 // .hero.is-info {
   // width:100%;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url('https://unsplash.it/1200/900?random') no-repeat center center fixed;
+  background:
+  linear-gradient(
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05)
+    ),
+    url('https://scontent.ftpe1-3.fna.fbcdn.net/v/t31.0-8/17157510_1850797071875706_6284809085316676569_o.jpg?_nc_cat=105&_nc_ht=scontent.ftpe1-3.fna&oh=fd7c006cfa81a33b0a1fad7948373e83&oe=5CCABBEB') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: white;
 }
 .hero .nav, .hero.is-success .nav {
   -webkit-box-shadow: none;
   box-shadow: none;
+  color: white;
 }
 .hero .subtitle {
-  padding: 3rem 0;
+  padding: 2rem 0;
   line-height: 1.5;
 }

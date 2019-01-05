@@ -3,22 +3,64 @@ import { Link, withRouter } from 'react-router-dom';
 
 
 class Header extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
   }
 
 
   render() {
 
     return (
-      <nav className="navbar is-fixed-top has-text-black">
-        <div className="navbar-menu is-active">
-          <div className="navbar-start header">
-            <Link id="home"className="navbar-item" to='/'>好好</Link>
-            {/* <Link className="navbar-item bar" to='/bags'> COLLECTION</Link> */}
+      <div className="container">
+        <div className="navbar-brand">
+          {/* <Link to="/"> */}
+          {/* <figure className="image is-128x128"> */}
+          {/* <img className="is-rounded"src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t31.0-8/886258_1655718751383540_4217715958903882440_o.jpg?_nc_cat=103&_nc_ht=scontent.ftpe1-2.fna&oh=7e6ddcd1e154116a4efbdefa28672d0d&oe=5CCC90D1" alt="Logo"/> */}
+          {/* </figure> */}
+          {/* </Link> */}
+          <span className="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" className="navbar-menu">
+          <div className="navbar-end">
+            <span className="navbar-item">
+              <a className="button is-white is-outlined" href="#">
+                <span className="icon">
+                  <i className="fa fa-home"></i>
+                </span>
+                <span>Home</span>
+              </a>
+            </span>
+            <span className="navbar-item">
+              <a className="button is-white is-outlined" href="#">
+                <span className="icon">
+                  <i className="fa fa-superpowers"></i>
+                </span>
+                <span>About</span>
+              </a>
+            </span>
+            <span className="navbar-item">
+              <a className="button is-white is-outlined" href="#">
+                <span className="icon">
+                  <i className="fa fa-book"></i>
+                </span>
+                <span>Contact</span>
+              </a>
+            </span>
+            <span className="navbar-item">
+              {/* <a className="button is-white is-outlined" href="">
+                  <span className="icon">
+                  <i className="fa fa-github"></i>
+                  </span>
+                  <span>View Source</span>
+                </a> */}
+            </span>
           </div>
         </div>
-      </nav>
+      </div>
     );
   }
 }
