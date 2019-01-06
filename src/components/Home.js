@@ -12,7 +12,9 @@ function Home(){
             好好。手作雜貨x美好生活。
             </h1>
             <h2 className="subtitle">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+              喜歡手作、喜歡烘焙、喜歡拍照、喜歡寫字。
+              <br/>
+              喜歡自己喜歡的所有一切，才是美好生活的開端。
             </h2>
           </div>
         </div>
