@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --mode development",
     "build": "webpack -p",
     "start": "yarn build && node index",
     "start:server": "nodemon",
