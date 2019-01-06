@@ -12,7 +12,7 @@ function Home(){
             好好。手作雜貨x美好生活。
             </h1>
             <h2 className="subtitle">
-              this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
             </h2>
           </div>
         </div>
