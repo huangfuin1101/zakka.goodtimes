@@ -28,26 +28,26 @@ class Header extends React.Component {
           <div className="navbar-end">
             <span className="navbar-item">
               <a className="button is-white is-outlined" href="#">
-                <span className="icon">
+                {/* <span className="icon">
                   <i className="fa fa-home"></i>
-                </span>
+                </span> */}
                 <span>Home</span>
               </a>
             </span>
             <span className="navbar-item">
-              <a className="button is-white is-outlined" href="#">
-                <span className="icon">
+              <a className="button is-white is-outlined" href="https://www.google.com/">
+                {/* <span className="icon">
                   <i className="fa fa-superpowers"></i>
-                </span>
-                <span>About</span>
+                </span> */}
+                <span>Facebook</span>
               </a>
             </span>
             <span className="navbar-item">
               <a className="button is-white is-outlined" href="#">
-                <span className="icon">
+                {/* <span className="icon">
                   <i className="fa fa-book"></i>
-                </span>
-                <span>Contact</span>
+                </span> */}
+                <span className="has-text-centered">Contact</span>
               </a>
             </span>
             <span className="navbar-item">
